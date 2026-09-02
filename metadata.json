@@ -1,0 +1,6 @@
+{
+  "name": "Dulce Idea - Pastelería Artesanal",
+  "description": "Landing page premium y artesanal para Dulce Idea. Tortas personalizadas, mini cakes, cupcakes y boxes dulces en La Paz con cotizador guiado y catálogo editorial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
