@@ -1,10 +1,9 @@
-@import "tailwindcss";
+@import "./utilities.css";
 
-@theme {
+:root {
   --font-serif: "Fraunces", Georgia, serif;
   --font-sans: "Quicksand", system-ui, sans-serif;
   --font-handwriting: "Caveat", cursive;
-
   --color-crema: #FFF8F2;
   --color-rosa-chantilly: #F7D5D9;
   --color-frambuesa: #C44E72;
@@ -16,25 +15,22 @@
   --color-cafe-claro: #8A645A;
 }
 
-@layer utilities {
-  .font-fraunces, .font-serif {
-    font-family: 'Fraunces', Georgia, serif;
-  }
-  .font-quicksand, .font-sans {
-    font-family: 'Quicksand', system-ui, sans-serif;
-  }
-  .font-caveat, .font-hand {
-    font-family: 'Caveat', cursive;
-  }
-  .card-shadow {
-    box-shadow: 0 10px 30px -10px rgba(67, 40, 24, 0.1);
-  }
-  .bg-soft-gradient {
-    background: linear-gradient(135deg, #FFF8F2 0%, #FBE8EC 100%);
-  }
+.font-fraunces, .font-serif {
+  font-family: 'Fraunces', Georgia, serif;
+}
+.font-quicksand, .font-sans {
+  font-family: 'Quicksand', system-ui, sans-serif;
+}
+.font-caveat, .font-hand {
+  font-family: 'Caveat', cursive;
+}
+.card-shadow {
+  box-shadow: 0 10px 30px -10px rgba(67, 40, 24, 0.1);
+}
+.bg-soft-gradient {
+  background: linear-gradient(135deg, #FFF8F2 0%, #FBE8EC 100%);
 }
 
-/* Custom smooth styling */
 body {
   font-family: 'Quicksand', system-ui, sans-serif;
   color: #432818;
@@ -45,7 +41,6 @@ h1, h2, h3, h4, .font-heading {
   font-family: 'Fraunces', Georgia, serif;
 }
 
-/* Custom rounded card styling */
 .card-craft {
   border-radius: 28px;
   background-color: #FFFFFF;
@@ -60,7 +55,6 @@ h1, h2, h3, h4, .font-heading {
   border-color: #F7D5D9;
 }
 
-/* Subtle organic grain or decorative badge */
 .badge-artesanal {
   display: inline-flex;
   align-items: center;
@@ -75,14 +69,8 @@ h1, h2, h3, h4, .font-heading {
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(6px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .animate-fadeIn {

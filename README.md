@@ -1,20 +1,29 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Dulce Idea — React + JavaScript + JSX
 
-# Run and deploy your AI Studio app
+Aplicación de Dulce Idea preparada con React y Vite, usando JavaScript/JSX.
 
-This contains everything you need to run your app locally.
+## Ejecutar
 
-View your app in AI Studio: https://ai.studio/apps/166ddbf3-1869-4f17-b920-39226bb0e9a1
+```bash
+npm install
+npm run dev
+```
 
-## Run Locally
+Vite mostrará la URL local (normalmente `http://localhost:5173`).
 
-**Prerequisites:**  Node.js
+## Validar
 
+```bash
+npm run lint
+npm run build
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Stack
+- React
+- JavaScript + JSX
+- Vite
+- CSS local (sin Tailwind)
+- Lucide React
+- canvas-confetti
+
+No utiliza TypeScript, Next.js, Create React App, Tailwind, Bootstrap, Material UI, React Router ni Axios.
